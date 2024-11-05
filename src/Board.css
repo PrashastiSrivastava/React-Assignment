@@ -1,0 +1,47 @@
+/* Board.css */
+.board {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #f4f4f4;
+    gap: 20px;
+  }
+  
+  .group {
+    flex: 1 1 300px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .group .heading {
+    display: flex;
+    align-items: center;
+  }
+
+  .group h2 {
+    /* text-align: start; */
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #5c4d4d;
+  }
+
+  #add {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  #add .imag {
+    margin-left: 8px;
+  }
+  
+  .tickets {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
